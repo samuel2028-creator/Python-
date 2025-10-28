@@ -7,7 +7,7 @@ def classify_person(age):
     		print('Teenager')
     elif 18 <= age <= 64:
         print('Adult')
-    elif age >= 64:
+    elif age >= 65:
         print('Senior')
     else:
         print('undefined')
