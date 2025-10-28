@@ -1,6 +1,6 @@
 time = int(input('What time is it?'))
 
-if time <= 0 or time > 24:
+if time < 0 or time > 24:
     print("Error! You should insert a number between (0 - 24)")
 else:
     if 5<= time <= 11:
